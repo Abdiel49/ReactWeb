@@ -1,11 +1,11 @@
 import { useState } from "react";
 
 export function useCalculator (value) {
-  const [count, setCount] = useState(value || 1)
+  const [count, setCount] = useState(value || 0)
 
   function sumar () {
     console.log('se presiono el boton')
-    setCount(count + 1)
+    setCount(count + 1 )
   }
 
   function restar () {
@@ -18,5 +18,17 @@ export function useCalculator (value) {
     setCount(0)
   }
 
-  return { count, sumar, restar, reset }
+  function set (value) {
+    // valiate typof 
+    // setCount(Number.parseInt(value))
+    setCount(value)
+  }
+
+  return {
+    count,
+    sumar,
+    restar,
+    reset,
+    set,
+  }
 }

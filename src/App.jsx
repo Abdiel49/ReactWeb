@@ -5,10 +5,9 @@ import './App.css'
 import { useCalculator } from './hooks/useCalculator'
 import { ButtonComponent } from './componets/ButtonComponent'
 import { ProductCard } from './componets/ProductCard'
+import ProductList from './componets/ProductList'
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   const {count, reset, restar, sumar} = useCalculator(0)
 
   function miBoton() {
@@ -17,7 +16,7 @@ function App() {
 
   return (
     <>
-      <div>
+      {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -25,16 +24,22 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Vite + React</h1> */}
+
+      <ProductList />
       <div className="card">
-        <h2>count is {count}</h2>
+        {/* <h2>count is {count}</h2> */}
         {/* usar el componente de React para el Card de productos */}
         
-        <ProductCard />
+        {/* <ProductCard /> */}
 
 
         <ButtonComponent
           label={'Mi Botoncito'}
+          onClick={miBoton}
+        />
+
+        <ButtonComponent
           onClick={miBoton}
         />
 

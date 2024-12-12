@@ -4,7 +4,7 @@ export function ButtonComponent ({label, onClick}) {
       onClick={onClick}
       className="mi-boton"
     >
-      {label}
+      {label || 'Esto es un boton' }
     </button>
   )
 }

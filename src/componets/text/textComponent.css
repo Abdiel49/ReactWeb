@@ -1,0 +1,111 @@
+.text {
+  color: #333; /* Default dark color */ 
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Arial, sans-serif';
+  flex-shrink: 1;
+}
+
+.size-12 {
+  font-size: 12px;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+.size-16 {
+  font-size: 16px;
+}
+
+.size-18 {
+  font-size: 18px;
+}
+
+.size-20 {
+  font-size: 20px;
+}
+
+.size-22 {
+  font-size: 22px;
+}
+
+.size-24 {
+  font-size: 24px;
+}
+
+.size-28 {
+  font-size: 28px;
+}
+
+.weight-bold {
+  font-weight: bold;
+}
+
+.weight-semibold {
+  font-weight: 600;
+}
+
+.weight-light {
+  font-weight: 300;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.color-primary {
+  color: #007bff;
+}
+
+.color-secondary {
+  color: #6c757d;
+}
+
+.color-dark {
+  color: #333;
+}
+
+.color-muted {
+  color: #6c757d;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-yellow {
+  color: #ffc107;
+}
+
+.color-green {
+  color: #28a745;
+}
+
+.font-bold {
+  font-family: 'Arial Bold', sans-serif;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-regular {
+  font-family: 'Arial, sans-serif';
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
