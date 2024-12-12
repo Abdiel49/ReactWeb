@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: lightblue;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.logo-container {
+  padding-top: 3px;
+  cursor: pointer;
+}
+
+.logo-container img {
+  width: 30%;
+  border-left: 0px;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.nav-container li {
+  margin: 0 10px;
+  list-style: none;
+}
+
+.nav-container li a {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: 500;
+  font-size: 18px;
+}
