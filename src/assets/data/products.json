@@ -1,0 +1,92 @@
+[
+  {
+    "id": "a88ee195-16ed-45e5-a0cf-d74e14caaca8",
+    "image": "https://via.placeholder.com/150?text=Aceite+Vegetal",
+    "title": "Aceite Vegetal",
+    "detail": "900 ml",
+    "price": 7.8,
+    "currency": "Bs",
+    "stock": 10
+  },
+  {
+    "id": "680f99e1-8811-486c-9de4-f39df90edc80",
+    "image": "https://via.placeholder.com/150?text=Leche+Entera",
+    "title": "Leche Entera",
+    "detail": "1 Lt",
+    "price": 10.5,
+    "currency": "Bs",
+    "stock": 12
+  },
+  {
+    "id": "e24c92b6-69cb-43f1-8260-8dd393b3fc39",
+    "image": "https://via.placeholder.com/150?text=Galletas+de+Chocolate",
+    "title": "Galletas de Chocolate",
+    "detail": "300 g",
+    "price": 7.0,
+    "currency": "Bs",
+    "stock": 16
+  },
+  {
+    "id": "615a9442-652b-4b4f-baa3-dd597be92750",
+    "image": "https://via.placeholder.com/150?text=Jugo+de+Naranja",
+    "title": "Jugo de Naranja",
+    "detail": "1 Lt",
+    "price": 8.9,
+    "currency": "Bs",
+    "stock": 13
+  },
+  {
+    "id": "17e0d18a-196f-4c4a-91f2-2bfebf059431",
+    "image": "https://via.placeholder.com/150?text=Cereal de Maíz",
+    "title": "Cereal de Maíz",
+    "detail": "250 g",
+    "price": 3.2,
+    "currency": "Bs",
+    "stock": 3
+  },
+  {
+    "id": "831e863a-9c85-4b37-8990-0b6ed43ef337",
+    "image": "https://via.placeholder.com/150?text=Arroz Blanco",
+    "title": "Arroz Blanco",
+    "detail": "5 Kg",
+    "price": 15.0,
+    "currency": "Bs",
+    "stock": 0
+  },
+  {
+    "id": "9b772d36-fc70-4543-86ca-c7ae307a63f7",
+    "image": "https://via.placeholder.com/150?text=Arroz Blanco",
+    "title": "Arroz Blanco",
+    "detail": "5 Kg",
+    "price": 15.0,
+    "currency": "Bs",
+    "stock": 10
+  },
+  {
+    "id": "18b303a9-9021-401b-8ff6-49f5fffb44c7",
+    "image": "https://via.placeholder.com/150?text=Cereal de Maíz",
+    "title": "Cereal de Maíz",
+    "detail": "250 g",
+    "price": 3.2,
+    "currency": "Bs",
+    "stock": 14
+  },
+  {
+    "id": "32b9a691-43a7-45c1-b14c-727a97bce801",
+    "image": "https://via.placeholder.com/150?text=Pan Integral",
+    "title": "Pan Integral",
+    "detail": "350 g",
+    "price": 6.5,
+    "currency": "Bs",
+    "stock": 1
+  },
+  {
+    "id": "52c8274c-fc7e-445c-8ab6-cb1feb5cd38f",
+    "image": "https://via.placeholder.com/150?text=Pan Integral",
+    "title": "Pan Integral",
+    "detail": "350 g",
+    "price": 6.5,
+    "currency": "Bs",
+    "stock": 12
+  }
+]
