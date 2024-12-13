@@ -1,12 +1,17 @@
 import ImgCoca from '../assets/img/coca-cola.webp'
 import { ButtonComponent } from './ButtonComponent'
 import {useCalculator} from '../hooks/useCalculator'
+import ActionContainer from './ActionContainer'
+import { useProducts } from '../context/AppContext'
 
-export const ProductCard = ({title, detail, price, imageURL}) => {
+export const ProductCard = ({id, title, detail, price, imageURL, }) => {
   const {count, reset, restar, sumar, set} = useCalculator()
+  const { addProductToCart } = useProducts();
 
   function printValue () {
-    console.log('count value', count)
+    if (count > 0) {
+      addProductToCart({id, title, price}, count)
+    }
   }
   return (
     <div className='product-card'>
@@ -17,8 +22,11 @@ export const ProductCard = ({title, detail, price, imageURL}) => {
         <span className='product-detail'>{detail}</span>
         <p className='product-price'>{price}</p>
 
-        <div className='product-actions'>
-          <ButtonComponent label={'Quitar'} onClick={restar} />
+        <ActionContainer>
+          
+          <ButtonComponent label={'Quitar'} onClick={restar} >
+            
+          </ButtonComponent>
           <input
             type="text"
             id="amount"
@@ -32,9 +40,10 @@ export const ProductCard = ({title, detail, price, imageURL}) => {
           />
           <ButtonComponent label={'Añadir'} onClick={sumar} />
 
-        </div>
+        </ActionContainer>
+
           <ButtonComponent label={'X'} onClick={reset} />
-          <ButtonComponent label={'Imprimir'} onClick={printValue} />
+          <ButtonComponent label={'Añadir al carrito'} onClick={printValue} />
       </div>
     </div>
   )
