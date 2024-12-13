@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./NavBar.css";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   const brand = "https://ascensus-mdb-uikit-tutorial.mdbgo.io/img/logo.png";
@@ -8,18 +9,18 @@ const NavBar = () => {
   return (
     <header className="header">
       {/* logo de la marca */}
-      <div className="logo-container">
+      <NavLink className="logo-container" to="/">
         <img src={brand} alt="logo" />
-      </div>
+      </NavLink>
 
       {/* links de navegación */}
       <nav>
         <ul className="nav-container">
           <li>
-            <a href="/">Productos</a>
+            <NavLink to="/products">Productos</NavLink>
           </li>
           <li>
-            <a href="/">Carrito</a>
+            <NavLink to="/pedido">Carrito</NavLink>
           </li>
         </ul>
       </nav>
