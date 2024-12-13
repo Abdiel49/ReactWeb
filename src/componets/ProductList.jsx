@@ -4,7 +4,7 @@ import { ProductCard } from './ProductCard'
 
 const ProductList = () => {
   return (
-    <div>
+    <div className='product-list'>
       {productList.map((product ) => {
         return (
           <ProductCard
